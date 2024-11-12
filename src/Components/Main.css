@@ -1,0 +1,25 @@
+*{
+    font-family: cursive;
+    background-color: white;
+}
+.container img{
+    width: 50vw;
+}
+.container{
+    max-width: 1080px;
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+    align-items: center;
+}
+@media screen and (max-width: 600px){
+    .container{
+        padding-top: 14vh;
+        margin: 5vh;
+        display: inline-block;
+    }
+    .container img{
+        width: 80vw;
+    }
+}
+    
